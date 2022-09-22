@@ -1,0 +1,21 @@
+.homeTitle{
+    font-size: 8rem;
+    margin: 5rem;
+    background: linear-gradient(to right,#654b0c,#fcbc1d);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+.home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#backgroundHome{
+    max-width: 450px;
+    max-height: 450px;
+    margin: 5rem;
+}
