@@ -12,7 +12,7 @@ const NavBar = () => {
   
   return(
     <nav className='Navegacion'>
-      <div><a href='https://2022.spaceappschallenge.org/challenges/2022-challenges/moonquake-map/teams/unnamed-2/project' className="Brand-OutUl">Unnamed.<sup>Team</sup></a></div>
+      <div className='BrandOutUlSection'><a href='https://2022.spaceappschallenge.org/challenges/2022-challenges/moonquake-map/teams/unnamed-2/project' className="Brand-OutUl">Unnamed.<sup>Team</sup></a></div>
       <ul className={isNavExpanded ? "topnav responsive" : "topnav"}>
         <div className="Brand"><Link to="/" className="active" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Unnamed.<sup>Team</sup></Link></div>
         <div  iv className="mid">

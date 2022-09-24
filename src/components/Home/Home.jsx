@@ -10,8 +10,8 @@ import backgroundHome from './img/background.png';
 function Home (){
     return(
         <div className="home">
-            <h1 className="homeTitle">Moonquake.</h1>
-            <img id="backgroundHome" src={backgroundHome} alt="" />            
+            <img id="backgroundHome" src={backgroundHome} alt="" />
+            <h1 className="homeTitle">MOONQUAKES</h1>            
         </div>
     );
 }

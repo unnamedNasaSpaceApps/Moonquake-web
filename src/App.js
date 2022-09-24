@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from './components/NavBar/NavBar';
 import {Home} from './components/Home/Home';
 import {Resources} from './components/Resources/Resources';
+import {Footer} from './components/Footer/Footer';
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/" exact component={() => <Home />} />
           <Route path="/resources" exact component={() => <Resources />} />
         </Switch>
+       <Footer/>
       </Router>
     </React.Fragment>
   );

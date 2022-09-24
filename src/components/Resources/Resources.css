@@ -1,0 +1,72 @@
+/*GENERAL FEATURES*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+  }
+  
+/*---------------------------------------------*/
+
+.resources{
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block1, .block2, .block3{
+    display: flex;
+    color: #fff;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#flaticonImg{
+    max-width: 400px;
+}
+
+.blockParagraph{
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blockParagraph p{
+    max-width: 50rem;
+}
+
+.blockParagraph input{
+    background: #fff;
+    border: none;
+    padding: 1rem 5rem;
+    max-width: 100%;
+    margin: 1rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.blockParagraph input:hover{
+    background: #eee;
+}
+
+.blockParagraph input:active{
+    padding: 0.8rem 4.8rem;
+}
+
+#flaticonImg{
+    margin: 5rem;
+}
+
+
