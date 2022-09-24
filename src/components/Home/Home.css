@@ -49,8 +49,12 @@ h1.homeTitle {
 }
 
 
-@media (max-width: 480px){
+@media (max-width: 520px){
     .homeTitle{
         font-size: 5rem;
+    }
+
+    #backgroundHome{
+        width: 100%;
     }
 }

@@ -65,8 +65,32 @@ body{
     padding: 0.8rem 4.8rem;
 }
 
+.blockParagraph h1{
+    margin-bottom: 2rem;
+}
+
 #flaticonImg{
     margin: 5rem;
+}
+
+@media (max-width: 955px){
+    .resources img{
+        display: none;
+    }
+
+    .block1{
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 453px){
+    .blockParagraph input{
+        padding: 1rem 3rem;
+    }
+
+    .blockParagraph input:active{
+        padding: 0.8rem 2.8rem;
+    }
 }
 
 
