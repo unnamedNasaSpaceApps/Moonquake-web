@@ -18,7 +18,7 @@ const NavBar = () => {
         <div  iv className="mid">
           <Link to="/" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Home</Link>
           <Link to="/resources" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Resources</Link>
-          <Link to="/app" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>App</Link>
+          <Link to="/download" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Download</Link>
         </div>
         <a href="#!" className="icon" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>
           <i className="fa fa-bars"/>
