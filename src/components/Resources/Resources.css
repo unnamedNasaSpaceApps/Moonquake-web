@@ -84,6 +84,10 @@ body{
     margin-right: 20rem;
 }
 
+.block1 img{
+    border-radius: 80% 20% / 10% 40%;
+}
+
 /* Arriba | Derecha | Abajo | Izquierda */
 
 @media (max-width: 1230px){
