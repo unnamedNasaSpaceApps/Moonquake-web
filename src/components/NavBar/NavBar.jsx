@@ -19,7 +19,7 @@ const NavBar = () => {
           <Link to="/" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Home</Link>
           <Link to="/resources" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Resources</Link>
           <Link to="/download" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Download</Link>
-          <Link to={{ pathname: "https://veinad.itch.io/moonquake-map-nasaspaceapps-2022" }} target="_blank" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Play Map</Link>
+          <Link to={{ pathname: "https://veinad.itch.io/moonquake-map-nasaspaceapps-2022" }} target="_blank" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>Run Map</Link>
         </div>
         <a href="#!" className="icon" onClick={() => {setIsNavExpanded(!isNavExpanded);}}>
           <i className="fa fa-bars"/>
