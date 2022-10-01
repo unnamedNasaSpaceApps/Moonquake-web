@@ -18,7 +18,6 @@ body{
 
 .Moonquakes{
     width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,26 +26,29 @@ body{
     background: #000;
 }
 
-.moonquakeBlock1, .moonquakeBlock2, .moonquakeBlock3, .moonquakeBlock4, .moonquakeBlock5{
+.apollo11Block, .apollo12Block, .apollo14Block, .apollo15Block, .apollo16Block{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 35%;
-    font-size: 2rem;
-    margin: 5rem 0rem;
-    text-align: center;
+    align-items: stretch;
+    width: 40%;
 }
 
-.moonquakeBlock1{
+.subTable{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.subTable p{
+ margin: .5rem 0rem;
+}
+
+.titleBox{
+    display: flex;
+    justify-content: center;
+}
+
+.apollo11Block{
     margin-top: 10rem;
 }
 
-.moonquakeParagraph a{
-    display: flex;
-    justify-content: center;
-}
-
-.moonquakeBlock1 h1, .moonquakeBlock2 h1, .moonquakeBlock3 h1, .moonquakeBlock4 h1, .moonquakeBlock5 h1{
-    margin-bottom: 2rem;
-}
