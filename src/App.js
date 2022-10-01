@@ -10,6 +10,7 @@ import {Home} from './components/Home/Home';
 import {Resources} from './components/Resources/Resources';
 import {Footer} from './components/Footer/Footer';
 import {Download} from './components/Download/Download';
+import { Moonquakes } from './components/Moonquakes/Moonquakes';
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/" exact component={() => <Home />} />
           <Route path="/resources" exact component={() => <Resources />} />
           <Route path="/download" exact component={() => <Download />} />
+          <Route path="/moonquakes" exact component={() => <Moonquakes />} />
         </Switch>
        <Footer/>
       </Router>

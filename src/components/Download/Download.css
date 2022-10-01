@@ -54,6 +54,12 @@ a{
     padding: 2rem;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
+}
+
+.appleButton:active, .microsoftButton:active, .linuxButton:active{
+    padding: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .appleButton img, .microsoftButton img, .linuxButton img{
@@ -65,6 +71,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .Buttons a{
@@ -74,23 +81,12 @@ a{
 .downloadTitleBox{
     display: flex;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 
 @media (max-width:999px){
     .appleButton, .microsoftButton, .linuxButton{
-        margin: 4rem 0rem;
-        padding: 1rem;
-        border-radius: 1rem;
-    }
-
-    .appleButton h1, .microsoftButton h1, .linuxButton h1{
-        font-size: 3rem;
-    }
-
-    .appleButton img, .microsoftButton img, .linuxButton img{
-        width: 4rem;
-        margin-left: 3rem;
+        margin: 2rem 0rem;
     }
 
     .downloadTitleBox{
@@ -99,6 +95,10 @@ a{
 
     #downloadTitle{
         font-size: 5rem;
+    }
+
+    .downloadTitleBox{
+        margin-bottom: 5rem;
     }
 }
 

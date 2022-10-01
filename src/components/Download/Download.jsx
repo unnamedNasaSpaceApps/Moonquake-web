@@ -13,6 +13,9 @@ import Apple from './img/apple.png';
 import Microsoft from './img/microsoft.png';
 import Linux from './img/linux.png';
 
+//import simulator
+import sim from './simulator/hola.txt'
+
 
 function Download (){
     return(
@@ -23,7 +26,7 @@ function Download (){
                     <img src={DownloadImg} alt="" />
                 </div>
                 <div className="Buttons">
-                    <Link>
+                    <Link to={sim} target="_blank" download>
                         <div className="appleButton">
                             <h1>macOS</h1>
                             <img src={Apple} alt="" />
