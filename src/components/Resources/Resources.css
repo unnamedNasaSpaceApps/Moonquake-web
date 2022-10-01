@@ -72,6 +72,10 @@ body{
     margin: 5rem;
 }
 
+.block2 img, .block5 img{
+    width: 800px;
+}
+
 .block1 .blockParagraph, .block3 .blockParagraph, .block4 .blockParagraph{
     margin-right: 20rem;
 }
@@ -111,5 +115,3 @@ body{
         padding: 0.8rem 2.6rem;
     }
 }
-
-

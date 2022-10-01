@@ -28,7 +28,7 @@ function Resources (){
                 <div className="blockParagraph">
                     <h1>Our solution</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <input id="resourcesButton" type="button" value="View our 3d model" />
+                    <input id="resourcesButton" type="button" value="More info" />
                 </div>
             </div>
 
@@ -36,7 +36,7 @@ function Resources (){
                 <div className="blockParagraph">
                     <h1>NASA data</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <input id="resourcesButton" type="button" value="View our 3d model" />
+                    <a href="https://linktr.ee/spaceagencydata" target="_blank" rel="noopener noreferrer"><input id="resourcesButton" type="button" value="NASA data tree" /></a>
                 </div>
                 <img src={nasaResources} alt="" />
             </div>
