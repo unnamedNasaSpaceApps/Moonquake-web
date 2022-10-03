@@ -72,8 +72,8 @@ body{
     margin: 5rem;
 }
 
-.block2 img, .block5 img{
-    width: 800px;
+.block2 img, .block5 img, .block4 img{
+    width: 500px;
 }
 
 .block1 .blockParagraph, .block3 .blockParagraph, .block4 .blockParagraph{
